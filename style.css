@@ -1,0 +1,46 @@
+body {
+    font-size: 1rem;
+    background-color: #97b1e2;
+    font-family: sans-serif;
+    margin: 0;
+}
+h2 {
+    line-height: 2em;
+    
+}
+.share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
+h2::first-letter{
+    font-size: 50px;
+    border: lightgrey;
+    
+}
+#container p {
+    background-color: rgb(235, 86, 86);
+}
+td {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    right: 100px;
+    bottom: 100px;
+}
+b {
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+ol {
+    background-color: rgb(231, 215, 202);
+    width: 200px;
+    height: 100px;
+    border: 15px solid rgb(139, 28, 0);
+    padding: 50px;
+    margin: 20px;
+}
+span{
+    display: block;
+}
